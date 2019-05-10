@@ -1,0 +1,49 @@
+.sprite {
+    background: url(../img/sprite.jpeg) no-repeat;
+    width: 162.6px;
+    height: 160.5px;
+    margin: 0 auto;
+
+}
+.chute{
+  display: none;
+}
+.entrada{
+  display: none;
+}
+#chute{
+  clear: both;
+}
+.texto{
+display: none;
+height: 100px;
+}
+li{
+  border: solid 2px;
+  width: 40px;
+  height: 40px;
+  margin: 0px -290px 10px 300px;
+  list-style-type:none;
+  padding: 10px;
+  display: inline-flex;
+}
+
+
+
+.frame1 { background-position: 0 0;}
+
+.frame2 { background-position: 25% 0;}
+
+.frame3 { background-position: 50% 0; }
+
+.frame4 { background-position: 75% 0; }
+
+.frame5 { background-position: 100% 0; }
+
+.frame6 { background-position: 0 100%; }
+
+.frame7 { background-position: 25% 100%; }
+
+.frame8 { background-position: 50% 100%; }
+
+.frame9 { background-position: 75% 100%; }
